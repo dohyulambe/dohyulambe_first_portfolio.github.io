@@ -4,7 +4,7 @@ body{
     margin:0;
     color: white;
     background-color:#f4f4f4;
-    background-image: url("img15.jpg");
+    background-image: url("img13.jpg");
     background-position: center;
     background-size:cover;
     
@@ -203,11 +203,11 @@ footer{
 }
 
 strong{
-    color: #09d5e0
+    color: #09d9e0
 }
 
 .strong{
-    color: #09d5e0;
+    color: #0c4c8a;
 }
 .hire{
     padding-left: 100px;
