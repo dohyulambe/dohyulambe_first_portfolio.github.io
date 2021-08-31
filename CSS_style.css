@@ -35,6 +35,7 @@ hover ul{
     justify-content: center;
     margin-left: 110px;
 }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
 .box{
     max-width: 32.33%;
     display: flex;
@@ -218,7 +219,64 @@ strong{
     font-size: 20PX;
 }
 
+/*****----Project----***/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+:root{
+    --primary-color: rgb(240, 228, 228);
+    --secondary-color: #a1a4be;
+}
 
+section.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+.service-hint{
+    text-align: center;
+    margin-bottom: 40px;
+    padding-left: 40px;
+}
+section.two .service-hint span{
+    color: #08a2e8;
+    font-weight: 900;
+}
+section.two .service-hint h3{
+    color: #08a2e8;
+}
+section.two .service-hint p{
+    color:black;
+}
 
+section.two .service-categories{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-content: center;
+    grid-gap: 2em;
+}
 
+section.two .service-categories div{
+   width: 400px;
+    background: #addfde;
+    border-radius: 15px;
+}
+
+section.two .service-categories div:hover{
+    background: #fff3f3;
+    text-decoration-color: black;
+}
+section.two .service-categories div h4 {
+color:#34b7f3;
+padding-left: 15px;
+}
+
+section.two .service-categories div p {
+    color:black;
+    padding: 20px;
+}
